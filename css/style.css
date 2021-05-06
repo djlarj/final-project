@@ -1,6 +1,12 @@
 body {
     background-color: #003366;
 }
+.indexabout {
+    font-family: 'Asul', sans-serif;
+}
+.contact {
+    font-family: 'K2D', sans-serif;
+}
 header {
     margin-left: auto;
     margin-right: auto;
@@ -45,4 +51,39 @@ li a:hover:not(.active) {
     margin-right: auto;
     text-align: center;
     color: #CCE6FF    
+}
+.navlinks a {
+    color: #CCE6FF;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 13px;
+    float: right;
+}
+hr {
+    border: 1px solid #CCE6FF;
+}
+footer {
+
+}
+.bottomfooter {
+}
+.copyright, .socialmedialinks {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+}
+.copyright {
+    color: #CCE6FF;
+    height: 64px;
+}
+.socialmedialinks {
+    font-size: 20px;
+    text-align: right;
+}
+.socialmedialinks a {
+    color: #CCE6FF;
+    padding-left: 10px;
+}
+/* .clearfloat { */
+    clear: both;
 }
