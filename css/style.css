@@ -1,0 +1,48 @@
+body {
+    background-color: #003366;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #CCE6FF;
+}
+ul {
+    background-color: #003366;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li {
+    /* display: inline; */
+    float: left;
+}
+li a {
+    color: #CCE6FF;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+}
+li a:hover:not(.active) {
+    background-color: #0066CC;
+}
+.active {
+    background-color: #004D99;
+}
+.aboutluisreyes {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #CCE6FF;   
+}
+.aboutluisreyes a {
+    text-decoration: none;
+    color: #99CCFF;
+}
+.videooftheweek {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #CCE6FF    
+}
