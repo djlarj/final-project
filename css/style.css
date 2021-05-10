@@ -98,12 +98,31 @@ li a:hover:not(.active) {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #CCE6FF;   
+    color: #CCE6FF; 
 }
 .aboutluisreyes a {
     text-decoration: none;
     color: #99CCFF;
 }
-/* .clearfloat { */
-    /* clear: both; */
+.biography {
+    text-align: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    /* height: 540px; */
+}
+.profilepic {
+    display: block;
+    width: 500px;
+    margin-left: 13px;
+    margin-right: 13px;
+    float: left;
+    /* height: 540px */
+}
+.profilepic img {
+    width: 500px;
+    border-radius: 8px;
+}
+.clearfloat1 {
+    margin-bottom: 50px;
+    clear: left;
 }
