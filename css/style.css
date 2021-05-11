@@ -94,6 +94,48 @@ li a:hover:not(.active) {
     color: #CCE6FF;
     padding-right: 13px;
 }
+.contactme {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #004D99;
+}
+input[type=text], [type=email], [type=number] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #00264D;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 13px;
+    border: 1px solid #00264D;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* resize: both;  */
+}
+input[type=submit], [type=reset] {
+    background-color: #00264D;
+    color: #CCE6FF;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #0066CC;
+}
+label {
+    color: #CCE6FF
+}
 .aboutluisreyes {
     margin-left: auto;
     margin-right: auto;
