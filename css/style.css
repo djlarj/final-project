@@ -54,6 +54,16 @@ li a:hover:not(.active) {
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
+  .songoftheweek {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #CCE6FF    
+}  
+.songoftheweek a, .videooftheweek a {
+    text-decoration: none;
+    color: #99CCFF;
+}
 .videooftheweek {
     margin-left: auto;
     margin-right: auto;
@@ -164,6 +174,12 @@ label {
     width: 500px;
     border-radius: 8px;
 }
+.x1logo img {
+    width: 100px;
+}
+.bitwiselogo img {
+    width: 500px;
+}    
 .clearfloat1 {
     margin-bottom: 50px;
     clear: left;
