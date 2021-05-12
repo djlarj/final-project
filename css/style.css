@@ -13,6 +13,7 @@ header {
     margin-right: auto;
     text-align: center;
     color: #CCE6FF;
+    margin-bottom: 75px;
 }
 ul {
     background-color: #003366;
@@ -54,21 +55,45 @@ li a:hover:not(.active) {
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
-  .songoftheweek {
-    margin-left: auto;
-    margin-right: auto;
+  .intro {
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-    color: #CCE6FF    
+    color: #CCE6FF;
+    margin-bottom: 75px;
+}
+  .songoftheweek {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #CCE6FF;
+    margin-bottom: 75px;   
 }  
 .songoftheweek a, .videooftheweek a {
     text-decoration: none;
     color: #99CCFF;
 }
 .videooftheweek {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-    color: #CCE6FF    
+    color: #CCE6FF;
+    margin-bottom: 75px;   
+}
+.restaurantoftheweek {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #CCE6FF;
+    margin-bottom: 75px; 
+}
+.restaurantoftheweek a {
+    text-decoration: none;
+    color: #99CCFF;
+}
+.sabaidee {
+    text-decoration: none;
+    color: #99CCFF;
 }
 .copyright, .navlinks, .socialmedialinks {
     float: left;
@@ -175,10 +200,14 @@ label {
     border-radius: 8px;
 }
 .x1logo img {
+    padding: 5px;
     width: 100px;
+    background-color:#00264D;
 }
 .bitwiselogo img {
+    padding: 5px;
     width: 500px;
+    background-color:#00264D;
 }    
 .clearfloat1 {
     margin-bottom: 50px;
