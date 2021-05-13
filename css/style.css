@@ -15,16 +15,29 @@ header {
     color: #CCE6FF;
     margin-bottom: 75px;
 }
+.logo {
+    width: 200px;
+    height: 82.28px;
+    float: left;
+}
+.logo img {
+    width: 200px;
+}
+nav {
+    height: 82.28px;
+    
+}
 ul {
     background-color: #003366;
     margin: 0;
-    padding: 0;
+    padding: 18px ;
     overflow: hidden;
     list-style-type: none;
 }
 li {
     /* display: inline; */
     float: left;
+    margin-left: 26px;
 }
 li a {
     color: #CCE6FF;
